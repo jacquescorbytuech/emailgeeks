@@ -26,6 +26,7 @@
 }
 
 .logos-bottom img {
+	margin-top:   2.0rem;
 	margin-right: 2.0rem;
 
 	&:last-of-type {
