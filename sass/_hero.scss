@@ -1,0 +1,37 @@
+.hero {
+	padding-bottom: 10.0rem;
+}
+
+header {
+	padding-top: 0.5rem;
+
+	@media (max-width: 767px) {
+		display: none;
+	}
+}
+
+header a {
+	font-size: 0.75rem;
+	color: $grey-dark;
+	text-decoration: none;
+	float: right;
+	transition: $link-transition;
+
+	&:hover {
+		color: $dark;
+	}
+}
+
+h1 {
+	display: inline-block;
+	margin-top: 9.5rem;
+
+	@media (min-width: 768px) {
+		margin-top: 8.125rem;
+	}
+}
+
+.slack-logo {
+	margin-top: -0.875rem;
+	margin-right: -0.125rem;
+}

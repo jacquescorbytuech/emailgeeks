@@ -1,0 +1,18 @@
+@media (max-width: 767px) {
+  .xs-center-children {
+  	text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .sm-center-children {
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .md-center-children {
+  	text-align: center;
+  }
+}
+.center-children {
+  text-align: center;
+}

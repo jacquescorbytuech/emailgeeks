@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+	
+	.valign-parent {
+		display: flex;
+    	flex-direction: row;
+	}
+
+	.valign-child {
+		display: flex;
+	    align-items: center;
+	}
+
+}

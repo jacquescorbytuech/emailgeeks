@@ -1,0 +1,130 @@
+.application {
+	padding-top:    7.5rem;
+	padding-bottom: 7.5rem;
+
+	@media (max-width: 767px) {
+		padding-top: 	5.0rem;
+		padding-bottom: 5.0rem;
+	}
+}
+
+.application__wrapper {
+
+	@media (max-width: 767px) {
+		margin-left:  auto;
+		margin-right: auto;
+		display: inline-block;
+		width: 100%;
+	}
+
+	@media (min-width: 426px)
+	   and (max-width: 667px) {
+		width: 75%;
+	}
+
+	@media (max-width: 425px) {
+		width: 100%;
+	}
+
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+
+	@media (max-width: 767px) {
+		margin-top: 2.0rem;
+	}
+}
+
+label,
+input,
+textarea {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	line-height: 1;
+
+	@media (min-width: 668px)
+	   and (max-width: 767px) {
+		width: 50%;
+	}
+}
+
+label {
+	color: $dark;
+	font-size: 0.875rem;
+	margin-bottom: 0.5rem;
+
+	text-align: left;
+}
+
+input {
+	margin-bottom: 2.0rem;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+       -moz-appearance: none;
+	        appearance: none;
+	color: $dark;
+	font-family: $sans;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1;
+	padding: 0;
+	outline: 0;
+	border: none;
+	border-bottom: 1px solid $green-light;
+	transition: 		$link-transition;
+	-webkit-transition: $link-transition;
+	-moz-transition: 	$link-transition;
+	-o-transition: 	 	$link-transition;
+
+	&:focus {
+		outline: 0;
+		border-bottom: 1px solid $green-bright;
+	}
+}
+
+textarea {
+	line-height: 1.5;
+	resize: vertical;
+}
+
+button,
+input[type="submit"] {
+	font-size: 1.0rem;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: $white;
+	background: $green-medium;
+	height: 2.5rem;
+	padding-left: 2.0rem;
+	padding-right: 2.0rem;
+	border:  0;
+	outline: 0;
+	border-radius: 2px;
+	border-bottom: 2px solid $green-dark;
+	margin-top: 1.5rem;
+	transition: $link-transition;
+
+	&:hover,
+	&:focus {
+		background: $green-bright;
+	} 
+}
+
+input:invalid {
+	border-bottom: 1px solid $error;
+}
+
+.application input[type="submit"] {
+	display: inline-block;
+	padding: 0;
+	margin-top: 1.25rem;
+	margin-bottom: 0;
+}

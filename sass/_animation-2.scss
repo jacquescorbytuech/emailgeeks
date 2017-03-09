@@ -1,0 +1,651 @@
+$animation: 2s step-start infinite;
+
+.chat {
+    width: 352px;
+    text-align: left;
+
+    @media (max-width: 767px) {
+        margin-left:  auto;
+        margin-right: auto;
+    }
+}
+
+.chat__left,
+.chat__right {
+  display: inline-block;
+  vertical-align: top;
+  
+  div {
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+}
+
+
+/* Yellow initial styles */
+
+.chat__a-icon {
+  margin-right: 4px;
+  width: 40px;
+  height: 40px;
+  background: $yellow-medium;
+  -webkit-animation: chat__a-icon $animation;
+     -moz-animation: chat__a-icon $animation;
+       -o-animation: chat__a-icon $animation;
+          animation: chat__a-icon $animation;
+}
+
+.chat__a-name { 
+  background: $yellow-medium;
+  width: 104px;
+  height: 16px;
+  -webkit-animation: chat__a-name $animation;
+     -moz-animation: chat__a-name $animation;
+       -o-animation: chat__a-name $animation;
+          animation: chat__a-name $animation;
+}
+
+.chat__a-line-1 { 
+  background: $yellow-light;
+  width: 296px;
+  height: 16px;
+  -webkit-animation: chat__a-line-1 $animation;
+     -moz-animation: chat__a-line-1 $animation;
+       -o-animation: chat__a-line-1 $animation;
+          animation: chat__a-line-1 $animation;
+}
+
+.chat__a-line-2 { 
+  background: $yellow-light;
+  width: 152px;
+  height: 16px;
+  -webkit-animation: chat__a-line-2 $animation;
+     -moz-animation: chat__a-line-2 $animation;
+       -o-animation: chat__a-line-2 $animation;
+          animation: chat__a-line-2 $animation;
+}
+
+
+/* Yellow animation */
+
+@-webkit-keyframes chat__a-icon {
+  33% {
+    background: $green-medium;
+  }
+  66% {
+    background: $blue-medium;
+  }
+}
+
+@-moz-keyframes chat__a-icon {
+  33% {
+    background: $green-medium;
+  }
+  66% {
+    background: $blue-medium;
+  }
+}
+
+@-o-keyframes chat__a-icon {
+  33% {
+    background: $green-medium;
+  }
+  66% {
+    background: $blue-medium;
+  }
+}
+
+keyframes chat__a-icon {
+  33% {
+    background: $green-medium;
+  }
+  66% {
+    background: $blue-medium;
+  }
+}
+
+@-webkit-keyframes chat__a-name {
+  33% {
+    width: 120px;
+    background: $green-medium;
+  }
+  66% {
+    width: 88px;
+    background: $blue-medium;
+  }
+}
+
+@-moz-keyframes chat__a-name {
+  33% {
+    width: 120px;
+    background: $green-medium;
+  }
+  66% {
+    width: 88px;
+    background: $blue-medium;
+  }
+}
+
+@-o-keyframes chat__a-name {
+  33% {
+    width: 120px;
+    background: $green-medium;
+  }
+  66% {
+    width: 88px;
+    background: $blue-medium;
+  }
+}
+
+keyframes chat__a-name {
+  33% {
+    width: 120px;
+    background: $green-medium;
+  }
+  66% {
+    width: 88px;
+    background: $blue-medium;
+  }
+}
+
+@-webkit-keyframes chat__a-line-1 {
+  33% {
+    background: $green-light;
+  }
+  66% {
+    background: $blue-light;
+  }
+}
+
+@-moz-keyframes chat__a-line-1 {
+  33% {
+    background: $green-light;
+  }
+  66% {
+    background: $blue-light;
+  }
+}
+
+@-o-keyframes chat__a-line-1 {
+  33% {
+    background: $green-light;
+  }
+  66% {
+    background: $blue-light;
+  }
+}
+
+keyframes chat__a-line-1 {
+  33% {
+    background: $green-light;
+  }
+  66% {
+    background: $blue-light;
+  }
+}
+
+@-webkit-keyframes chat__a-line-2 {
+  33% {
+    background: $green-light;
+    width: 248px;
+  }
+  66% {
+    background: $blue-light;
+    width: 192px;
+  }
+}
+
+@-moz-keyframes chat__a-line-2 {
+  33% {
+    background: $green-light;
+    width: 248px;
+  }
+  66% {
+    background: $blue-light;
+    width: 192px;
+  }
+}
+
+@-o-keyframes chat__a-line-2 {
+  33% {
+    background: $green-light;
+    width: 248px;
+  }
+  66% {
+    background: $blue-light;
+    width: 192px;
+  }
+}
+
+keyframes chat__a-line-2 {
+  33% {
+    background: $green-light;
+    width: 248px;
+  }
+  66% {
+    background: $blue-light;
+    width: 192px;
+  }
+}
+
+
+/* Green initial styles */
+
+.chat__b-icon {
+  margin-right: 4px;
+  width: 40px;
+  height: 40px;
+  background: $green-medium;
+  -webkit-animation: chat__b-icon $animation;
+          animation: chat__b-icon $animation;
+}
+
+.chat__b-name { 
+  background: $green-medium;
+  width: 120px;
+  height: 16px;
+  -webkit-animation: chat__b-name $animation;
+          animation: chat__b-name $animation;
+}
+
+.chat__b-line-1 { 
+  background: $green-light;
+  width: 296px;
+  height: 16px;
+  -webkit-animation: chat__b-line-1 $animation;
+          animation: chat__b-line-1 $animation;
+}
+
+.chat__b-line-2 { 
+  background: $green-light;
+  width: 248px;
+  height: 16px;
+  -webkit-animation: chat__b-line-2 $animation;
+          animation: chat__b-line-2 $animation;
+}
+
+/* Green animation */
+
+@-webkit-keyframes chat__b-icon {
+  33% {
+    background: $blue-medium;
+  }
+  66% {
+    background: $yellow-medium;
+  }
+}
+
+@-moz-keyframes chat__b-icon {
+  33% {
+    background: $blue-medium;
+  }
+  66% {
+    background: $yellow-medium;
+  }
+}
+
+@-o-keyframes chat__b-icon {
+  33% {
+    background: $blue-medium;
+  }
+  66% {
+    background: $yellow-medium;
+  }
+}
+
+keyframes chat__b-icon {
+  33% {
+    background: $blue-medium;
+  }
+  66% {
+    background: $yellow-medium;
+  }
+}
+
+@-webkit-keyframes chat__b-name {
+  33% {
+    background: $blue-medium;
+    width: 88px;
+  }
+  66% {
+    background: $yellow-medium;
+    width: 104px;
+  }
+}
+
+@-moz-keyframes chat__b-name {
+  33% {
+    background: $blue-medium;
+    width: 88px;
+  }
+  66% {
+    background: $yellow-medium;
+    width: 104px;
+  }
+}
+
+@-o-keyframes chat__b-name {
+  33% {
+    background: $blue-medium;
+    width: 88px;
+  }
+  66% {
+    background: $yellow-medium;
+    width: 104px;
+  }
+}
+
+keyframes chat__b-name {
+  33% {
+    background: $blue-medium;
+    width: 88px;
+  }
+  66% {
+    background: $yellow-medium;
+    width: 104px;
+  }
+}
+
+@-webkit-keyframes chat__b-line-1 {
+  33% {
+    background: $blue-light;
+  }
+  66% {
+    background: $yellow-light;
+  }
+}
+
+@-moz-keyframes chat__b-line-1 {
+  33% {
+    background: $blue-light;
+  }
+  66% {
+    background: $yellow-light;
+  }
+}
+
+@-o-keyframes chat__b-line-1 {
+  33% {
+    background: $blue-light;
+  }
+  66% {
+    background: $yellow-light;
+  }
+}
+
+keyframes chat__b-line-1 {
+  33% {
+    background: $blue-light;
+  }
+  66% {
+    background: $yellow-light;
+  }
+}
+
+@-webkit-keyframes chat__b-line-2 {
+  33% {
+    background: $blue-light;
+    width: 192px;
+  }
+  66% {
+    background: $yellow-light;
+    width: 152px;
+  }
+}
+
+@-moz-keyframes chat__b-line-2 {
+  33% {
+    background: $blue-light;
+    width: 192px;
+  }
+  66% {
+    background: $yellow-light;
+    width: 152px;
+  }
+}
+
+@-o-keyframes chat__b-line-2 {
+  33% {
+    background: $blue-light;
+    width: 192px;
+  }
+  66% {
+    background: $yellow-light;
+    width: 152px;
+  }
+}
+
+keyframes chat__b-line-2 {
+  33% {
+    background: $blue-light;
+    width: 192px;
+  }
+  66% {
+    background: $yellow-light;
+    width: 152px;
+  }
+}
+
+/* Blue initial styles */
+
+.chat__c-icon {
+  margin-right: 4px;
+  width: 40px;
+  height: 40px;
+  background: $blue-medium;
+  -webkit-animation: chat__c-icon $animation;
+          animation: chat__c-icon $animation;
+}
+
+.chat__c-name { 
+  background: $blue-medium;
+  width: 88px;
+  height: 16px;
+  -webkit-animation: chat__c-name $animation;
+          animation: chat__c-name $animation;
+}
+
+.chat__c-line-1 { 
+  background: $blue-light;
+  width: 296px;
+  height: 16px;
+  -webkit-animation: chat__c-line-1 $animation;
+          animation: chat__c-line-1 $animation;
+}
+
+.chat__c-line-2 { 
+  background: $blue-light;
+  width: 192px;
+  height: 16px;
+  -webkit-animation: chat__c-line-2 $animation;
+          animation: chat__c-line-2 $animation;
+}
+
+/* Blue animation */
+
+@-webkit-keyframes chat__c-icon {
+  33% {
+    background: $yellow-medium;
+  }
+  66% {
+    background: $green-medium;
+  }
+}
+
+@-moz-keyframes chat__c-icon {
+  33% {
+    background: $yellow-medium;
+  }
+  66% {
+    background: $green-medium;
+  }
+}
+
+@-o-keyframes chat__c-icon {
+  33% {
+    background: $yellow-medium;
+  }
+  66% {
+    background: $green-medium;
+  }
+}
+
+keyframes chat__c-icon {
+  33% {
+    background: $yellow-medium;
+  }
+  66% {
+    background: $green-medium;
+  }
+}
+
+@-webkit-keyframes chat__c-name {
+  33% {
+    background: $yellow-medium;
+    width: 104px;
+  }
+  66% {
+    background: $green-medium;
+    width: 120px;
+  }
+}
+
+@-moz-keyframes chat__c-name {
+  33% {
+    background: $yellow-medium;
+    width: 104px;
+  }
+  66% {
+    background: $green-medium;
+    width: 120px;
+  }
+}
+
+@-o-keyframes chat__c-name {
+  33% {
+    background: $yellow-medium;
+    width: 104px;
+  }
+  66% {
+    background: $green-medium;
+    width: 120px;
+  }
+}
+
+keyframes chat__c-name {
+  33% {
+    background: $yellow-medium;
+    width: 104px;
+  }
+  66% {
+    background: $green-medium;
+    width: 120px;
+  }
+}
+
+@-webkit-keyframes chat__c-line-1 {
+  33% {
+    background: $yellow-light;
+  }
+  66% {
+    background: $green-light;
+  }
+}
+
+@-moz-keyframes chat__c-line-1 {
+  33% {
+    background: $yellow-light;
+  }
+  66% {
+    background: $green-light;
+  }
+}
+
+@-o-keyframes chat__c-line-1 {
+  33% {
+    background: $yellow-light;
+  }
+  66% {
+    background: $green-light;
+  }
+}
+
+keyframes chat__c-line-1 {
+  33% {
+    background: $yellow-light;
+  }
+  66% {
+    background: $green-light;
+  }
+}
+
+@-webkit-keyframes chat__c-line-2 {
+  33% {
+    background: $yellow-light;
+    width: 152px;
+  }
+  66% {
+    background: $green-light;
+    width: 248px;
+  }
+}
+
+@-moz-keyframes chat__c-line-2 {
+  33% {
+    background: $yellow-light;
+    width: 152px;
+  }
+  66% {
+    background: $green-light;
+    width: 248px;
+  }
+}
+
+@-o-keyframes chat__c-line-2 {
+  33% {
+    background: $yellow-light;
+    width: 152px;
+  }
+  66% {
+    background: $green-light;
+    width: 248px;
+  }
+}
+
+keyframes chat__c-line-2 {
+  33% {
+    background: $yellow-light;
+    width: 152px;
+  }
+  66% {
+    background: $green-light;
+    width: 248px;
+  }
+}
+
+
+
+
+@media (max-width: 374px) {
+    .chat {
+        max-width: 288px;
+    }
+
+    .chat__a-icon,
+    .chat__a-name,
+    .chat__a-line-1,
+    .chat__b-icon,
+    .chat__b-name, 
+    .chat__b-line-1,
+    .chat__c-icon,
+    .chat__c-name,
+    .chat__c-line-1 {
+        max-width: 236px;
+    }
+
+    .chat__a-line-2,
+    .chat__b-line-2,
+    .chat__c-line-2 {
+        max-width: 220px;
+    }
+}

@@ -1,0 +1,230 @@
+$channel-ani: 4.0s step-start infinite;
+
+.channels__group,
+.channels__hash,
+.channels__name {
+    margin: 0;
+    padding: 0;
+}
+
+.channels__group {
+    margin-bottom: 4px;
+}
+
+.channels__hash,
+.channels__name {
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.channels__hash {
+    width:  24px;
+    height: 24px;
+    background: $yellow-light;
+
+    @media (max-width: 767px) {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.channels__name {
+    width:  160px;
+    height: 24px;
+    margin-left: 4px;
+    background: $yellow-light;
+
+    @media (max-width: 767px) {
+        width: 120px;
+        height: 16px;
+    }
+}
+
+div.chan-1 {
+  -webkit-animation: channel-1 $channel-ani;
+     -moz-animation: channel-1 $channel-ani;
+       -o-animation: channel-1 $channel-ani;
+          animation: channel-1 $channel-ani;
+}
+
+div.chan-2 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.1s;
+       -moz-animation-delay: 0.1s;
+         -o-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+}
+
+div.chan-3 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.2s;
+       -moz-animation-delay: 0.2s;
+         -o-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+}
+
+div.chan-4 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.3s;
+       -moz-animation-delay: 0.3s;
+         -o-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+}
+
+div.chan-5 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.4s;
+       -moz-animation-delay: 0.4s;
+         -o-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+}
+
+div.chan-6 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.5s;
+       -moz-animation-delay: 0.5s;
+         -o-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+
+div.chan-7 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.6s;
+       -moz-animation-delay: 0.6s;
+         -o-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+}
+
+div.chan-8 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.7s;
+       -moz-animation-delay: 0.7s;
+         -o-animation-delay: 0.7s;
+            animation-delay: 0.7s;
+}
+
+div.chan-9 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.8s;
+       -moz-animation-delay: 0.8s;
+         -o-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+}
+
+div.chan-10 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 0.9s;
+       -moz-animation-delay: 0.9s;
+         -o-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+}
+
+div.chan-11 {
+    -webkit-animation: channel-1 $channel-ani;
+       -moz-animation: channel-1 $channel-ani;
+         -o-animation: channel-1 $channel-ani;
+            animation: channel-1 $channel-ani;
+    -webkit-animation-delay: 1.0s;
+       -moz-animation-delay: 1.0s;
+         -o-animation-delay: 1.0s;
+            animation-delay: 1.0s;
+}
+
+@-webkit-keyframes channel-1 {
+    0% {
+        background: $yellow-light;
+    }
+    29% {
+        background: $yellow-light;
+    }
+    30% {
+        background: $yellow-medium;
+    }
+    99% {
+        background: $yellow-medium;
+    }
+    100% {
+        background: $yellow-light;
+    }
+}
+
+@-moz-keyframes channel-1 {
+    0% {
+        background: $yellow-light;
+    }
+    29% {
+        background: $yellow-light;
+    }
+    30% {
+        background: $yellow-medium;
+    }
+    99% {
+        background: $yellow-medium;
+    }
+    100% {
+        background: $yellow-light;
+    }
+}
+
+@-o-keyframes channel-1 {
+    0% {
+        background: $yellow-light;
+    }
+    29% {
+        background: $yellow-light;
+    }
+    30% {
+        background: $yellow-medium;
+    }
+    99% {
+        background: $yellow-medium;
+    }
+    100% {
+        background: $yellow-light;
+    }
+}
+
+keyframes channel-1 {
+    0% {
+        background: $yellow-light;
+    }
+    29% {
+        background: $yellow-light;
+    }
+    30% {
+        background: $yellow-medium;
+    }
+    99% {
+        background: $yellow-medium;
+    }
+    100% {
+        background: $yellow-light;
+    }
+}

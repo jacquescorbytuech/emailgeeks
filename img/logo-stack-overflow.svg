@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="38px" viewBox="0 0 33 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-stack-overflow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="15.61692 13.8474576 0.0198 13.8474576 0.0198 0.299813559 31.21404 0.299813559 31.21404 13.8474576 15.61692 13.8474576"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-972.000000, -1639.000000)">
+            <g id="COMPANIES" transform="translate(0.000000, 1389.000000)">
+                <g id="Logos" transform="translate(726.000000, 152.000000)">
+                    <g id="Row-2" transform="translate(0.000000, 97.000000)">
+                        <g id="logo-stack-overflow" transform="translate(246.000000, 1.000000)">
+                            <g id="Group-3" transform="translate(0.000000, 24.152542)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <polyline id="Fill-1" fill="#B6B5B1" mask="url(#mask-2)" points="27.74376 10.4603051 27.74376 0.299813559 31.21404 0.299813559 31.21404 13.8474576 0 13.8474576 0 0.299813559 3.47028 0.299813559 3.47028 10.4603051 27.74376 10.4603051"></polyline>
+                            </g>
+                            <path d="M6.94452,31.2256949 L24.29658,31.2256949 L24.29658,27.8391864 L6.94452,27.8391864 L6.94452,31.2256949 Z M22.49643,0.0421864407 L19.71189,2.06327119 L30.06795,15.6502034 L32.85249,13.6291186 L22.49643,0.0421864407 L22.49643,0.0421864407 Z M13.88904,8.05245763 L27.22269,18.8888983 L29.44359,16.2865424 L16.10994,5.45010169 L13.88904,8.05245763 L13.88904,8.05245763 Z M9.53601,15.5832203 L25.26612,22.7320508 L26.73132,19.6621017 L11.00121,12.5129492 L9.53601,15.5832203 L9.53601,15.5832203 Z M7.28937,23.5178136 L24.27051,27.0006102 L24.9843,23.6862373 L8.00316,20.2034407 L7.28937,23.5178136 L7.28937,23.5178136 Z" id="Fill-4" fill="#E6772C"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
