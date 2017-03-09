@@ -1,27 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="37px" height="32px" viewBox="0 0 37 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>logo-mjml</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" transform="translate(-1103.000000, -1642.000000)">
-            <g id="COMPANIES" transform="translate(0.000000, 1389.000000)">
-                <g id="Logos" transform="translate(726.000000, 152.000000)">
-                    <g id="Row-2" transform="translate(0.000000, 97.000000)">
-                        <g id="logo-mjml" transform="translate(377.676679, 4.000000)">
-                            <g id="Logo_">
-                                <rect id="Rectangle_arrondi_11" fill="#F45E43" x="0" y="0" width="24.83136" height="8.13192982" rx="4.06596491"></rect>
-                                <ellipse id="Oval" fill="#F45E43" cx="31.45248" cy="4.0645614" rx="4.25952" ry="4.0645614"></ellipse>
-                                <path d="M15.1488,12.1431579 L31.44384,12.1431579 C32.9825028,12.0399138 34.4545633,12.7705165 35.2739085,14.0440707 C36.0932538,15.3176248 36.126855,16.9273561 35.3613335,18.2323369 C34.5958121,19.5373178 33.155458,20.3256716 31.61376,20.2835088 L15.1488,20.2835088 C13.6101372,20.3867529 12.1380767,19.6561501 11.3187315,18.382596 C10.4993862,17.1090419 10.465785,15.4993106 11.2313065,14.1943297 C11.9968279,12.8893489 13.437182,12.1009951 14.97888,12.1431579 L15.1488,12.1431579 L15.1488,12.1431579 Z" id="Rectangle_arrondi_11_copie" fill="#F45E43"></path>
-                                <ellipse id="Ellipse_13_copie" fill="#F63A4D" cx="4.25664" cy="16.2133333" rx="4.25664" ry="4.14877193"></ellipse>
-                                <rect id="Rectangle_arrondi_11_copie_2" fill="#F45E43" x="0" y="23.8680702" width="24.83136" height="8.13192982" rx="4.06596491"></rect>
-                                <ellipse id="Ellipse_13_copie_2" fill="#F45E43" cx="31.45248" cy="27.9326316" rx="4.25952" ry="4.06736842"></ellipse>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="38" viewBox="0 0 42 38">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="28.97" height="9.657" fill="#F45E43" rx="4.828"/>
+    <ellipse cx="36.695" cy="4.827" fill="#F45E43" rx="4.969" ry="4.827"/>
+    <path fill="#F45E43" d="M17.6736,14.42 L36.68448,14.42 C38.4795866,14.2973977 40.1969905,15.1649884 41.1528933,16.6773339 C42.1087961,18.1896794 42.1479975,20.1012353 41.2548891,21.6509001 C40.3617808,23.2005649 38.6813677,24.136735 36.88272,24.0866667 L17.6736,24.0866667 C15.8784934,24.209269 14.1610895,23.3416783 13.2051867,21.8293328 C12.2492839,20.3169873 12.2100825,18.4054313 13.1031909,16.8557666 C13.9962992,15.3061018 15.6767123,14.3699317 17.47536,14.42 L17.6736,14.42 L17.6736,14.42 Z"/>
+    <ellipse cx="4.966" cy="19.253" fill="#F63A4D" rx="4.966" ry="4.927"/>
+    <rect width="28.97" height="9.657" y="28.343" fill="#F45E43" rx="4.828"/>
+    <ellipse cx="36.695" cy="33.17" fill="#F45E43" rx="4.969" ry="4.83"/>
+  </g>
 </svg>
