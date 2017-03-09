@@ -161,13 +161,13 @@
                                 </div>
                                 <div class="logos-top">
                                     <img src="/img/logo-cbs.svg" alt="CBS logo SVG">
-                                    <img src="/img/logo-ticketmaster.svg" alt="Ticketmaster logo SVG">
-                                    <img src="/img/logo-airbnb.svg" alt="Airbnb logo SVG">
                                     <img src="/img/logo-capital-one.svg" alt="Capital One logo SVG">
+                                    <img src="/img/logo-airbnb.svg" alt="Airbnb logo SVG">
+                                    <img src="/img/logo-ticketmaster.svg" alt="Ticketmaster logo SVG">
                                 </div>
                                 <div class="logos-bottom">
-                                    <img src="/img/logo-litmus.svg" alt="Litmus logo SVG">
                                     <img src="/img/logo-mailchimp.svg" alt="MailChimp logo SVG">
+                                    <img src="/img/logo-litmus.svg" alt="Litmus logo SVG">
                                     <img src="/img/logo-campaign-monitor.svg" alt="Campaign Monitor logo SVG">
                                     <img src="/img/logo-mjml.svg" alt="MJML logo SVG">
                                 </div>
