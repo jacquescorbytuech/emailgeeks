@@ -154,15 +154,22 @@
                             </div>
                             <div class="col-xs-9 col-sm-4 col-md-5 col-lg-3 col-lg-offset-1 center-children">
                                 <div class="logos-top">
-                                    <img src="/img/logo-litmus.svg" alt="Litmus logo">
-                                    <img src="/img/logo-mailchimp.svg" alt="MailChimp logo">
-                                    <img src="/img/logo-campaign-monitor.svg" alt="Campaign Monitor logo">
+                                    <img src="/img/logo-google.svg" alt="Google logo SVG">
+                                    <img src="/img/logo-nike.svg" alt="Nike logo SVG">
+                                    <img src="/img/logo-twitter.svg" alt="Twitter logo SVG">
+                                    <img src="/img/logo-uber.svg" alt="Uber logo SVG">
+                                </div>
+                                <div class="logos-top">
+                                    <img src="/img/logo-cbs.svg" alt="CBS logo SVG">
+                                    <img src="/img/logo-ticketmaster.svg" alt="Ticketmaster logo SVG">
+                                    <img src="/img/logo-airbnb.svg" alt="Airbnb logo SVG">
+                                    <img src="/img/logo-capital-one.svg" alt="Capital One logo SVG">
                                 </div>
                                 <div class="logos-bottom">
-                                    <img src="/img/logo-nest.svg" alt="Nest logo">
-                                    <img src="/img/logo-stack-overflow.svg" alt="Stack Overflow logo">
-                                    <img src="/img/logo-ft.svg" alt="Financial Times logo">
-                                    <img src="/img/logo-mjml.svg" alt="MJML logo">
+                                    <img src="/img/logo-litmus.svg" alt="Litmus logo SVG">
+                                    <img src="/img/logo-mailchimp.svg" alt="MailChimp logo SVG">
+                                    <img src="/img/logo-campaign-monitor.svg" alt="Campaign Monitor logo SVG">
+                                    <img src="/img/logo-mjml.svg" alt="MJML logo SVG">
                                 </div>
                             </div>
                         </div>
