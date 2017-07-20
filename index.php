@@ -150,7 +150,7 @@
                     <div class="container">
                         <div class="row valign-parent">
                             <div class="col-xs-9 col-sm-5 col-md-3 col-md-offset-1 xs-center-children valign-child">    
-                                <h3>1050+ email experts from leading companies</h3>
+                                <h3>1150+ email experts from leading companies</h3>
                             </div>
                             <div class="col-xs-9 col-sm-4 col-md-5 col-lg-3 col-lg-offset-1 center-children">
                                 <div class="logos-top">
