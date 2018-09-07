@@ -30,7 +30,7 @@
                     <div class="container">
                         <div class="row valign-parent">
                             <div class="col-xs-9 col-sm-4 col-md-3 col-md-offset-1 xs-center-children valign-child">    
-                                <h3>11 channels to chat code, design, job openings, events and more</h3>
+                                <h3>Dozens of channels to chat code, design, job openings, events and more</h3>
                             </div>
                             <div class="col-xs-9 col-sm-4 col-md-3 col-md-offset-1 sm-center-children">
                                 
