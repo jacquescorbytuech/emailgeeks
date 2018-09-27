@@ -7,7 +7,7 @@
           <img src="img/logo-emailgeeks@2x.png" alt="Email Geeks logo" height="16px" width="16px">
           <p>Created by <a href="//twitter.com/viktoredv" target="blank">Viktor Edvardsson</a>. <span class="credit">Website by <a href="//twitter.com/dylanatsmith" target="_blank">Dylan Smith</a>.</span></p>
           <div class="links">
-            <a href="https://docs.google.com/document/d/1xQijww98jh-s48WxwNjdkj299AEKI-NIttEdyI2cGtU/edit?usp=sharing" target="_blank">
+            <a href="https://email.geeks.chat/code-of-conduct" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                 <path fill="#333333" d="M17.9525403,5.47792969 L17.9525403,18.7115625 C17.9525403,19.4232422 17.3566532,19.9999609 16.6225806,19.9999609 L4.32995968,19.9999609 C3.59532258,19.9999609 3,19.4232422 3,18.7115625 L3,1.28839844 C2.99995968,0.57671875 3.59528226,0 4.32995968,0 L12.2979032,0 L17.9525403,5.47792969 Z M6.6528629,10.0411719 L6.6528629,10.8642578 L14.2990726,10.8642578 L14.2990726,10.0411719 L6.6528629,10.0411719 Z M6.6528629,11.879375 L6.6528629,12.7024609 L14.2990726,12.7024609 L14.2990726,11.879375 L6.6528629,11.879375 Z M6.6528629,13.7176172 L6.6528629,14.5407031 L14.2990726,14.5407031 L14.2990726,13.7176172 L6.6528629,13.7176172 Z M6.6528629,15.5558594 L6.6528629,16.3789453 L12.0905645,16.3789453 L12.0905645,15.5558594 L6.6528629,15.5558594 Z M16.7470729,5.47792969 L12.2979032,1.02876001 L12.2979032,4.18953125 C12.2979032,4.90121094 12.8931855,5.47792969 13.6278629,5.47792969 L16.7470729,5.47792969 Z"/>
               </svg>
