@@ -60,6 +60,14 @@ label {
 	text-align: left;
 }
 
+.label--required::after {
+	color: $grey-dark;
+	content: 'Required';
+	display: inline-block;
+	font-style: italic;
+	margin-left: 0.5rem;
+}
+
 input {
 	margin-bottom: 2.0rem;
 }
