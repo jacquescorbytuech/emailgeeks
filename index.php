@@ -1,4 +1,4 @@
-  <!doctype html>
+<!doctype html>
 <html lang="en-GB">
     
     <?php include "head.php"; ?>
@@ -192,22 +192,25 @@
                                     <form action="thanks" method="post">
                                         <fieldset>
                                             <label for="name" class="label--required">Name</label>
-                                            <input type="text" name="name" id="name">
+                                            <input type="text" name="name" id="name" required>
                                             
                                             <label for="email" class="label--required">Email address</label>
-                                            <input type="email" name="email" id="email">
-                                            
-                                            <label for="twitter">Twitter username</label>
-                                            <input type="text" name="twitter" id="twitter">
+                                            <input type="email" name="email" id="email" required>
                                             
                                             <label for="company">Company</label>
                                             <input type="text" name="company" id="company">
                                             
                                             <label for="job-title">Job title</label>
                                             <input type="text" name="job-title" id="job-title">
+
+                                            <label for="linkedin">LinkedIn profile</label>
+                                            <input type="text" name="linkedin" id="linkedin">
+
+                                            <label for="twitter">Twitter username</label>
+                                            <input type="text" name="twitter" id="twitter">
                                             
                                             <label for="why" class="label--required">Please describe your experience with email</label>
-                                            <textarea rows="3" name="why" id="why"></textarea>
+                                            <textarea rows="3" name="why" id="why" required></textarea>
                                             
                                             <input type="submit" value="Send Application">
                                         </fieldset>

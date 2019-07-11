@@ -1,4 +1,4 @@
-<!-- <?php include "php/trello.php"; ?> -->
+<?php include "php/trello.php"; ?>
 
 <!doctype html>
 <html lang="en-GB">
