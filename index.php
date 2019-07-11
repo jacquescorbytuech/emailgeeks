@@ -184,24 +184,31 @@
                         <div class="row">
                             <div class="col-xs-9 col-sm-4 col-md-3 col-md-offset-1 xs-center-children">
                                 <h2>Ready to join?</h2>
-                                <p>We welcome anyone passionate about email, whether you have a decade of strategy experience or you just want your code to work in Outlook.</p>
+                                <p>We welcome anyone passionate about email, whether you have decades of strategy experience or you just want your code to work in Outlook.</p>
+                                <p>Tell us a bit about yourself so we know you’re a good fit for our community.</p>
                             </div>
                             <div class="col-xs-9 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-1 xs-center-children">    
                                 <div class="application__wrapper">
                                     <form action="thanks" method="post">
                                         <fieldset>
-                                            <label for="name">Name</label>
+                                            <label for="name" class="label--required">Name</label>
                                             <input type="text" name="name" id="name">
-                                            <label for="email">Email address</label>
+                                            
+                                            <label for="email" class="label--required">Email address</label>
                                             <input type="email" name="email" id="email">
+                                            
                                             <label for="twitter">Twitter username</label>
                                             <input type="text" name="twitter" id="twitter">
+                                            
                                             <label for="company">Company</label>
                                             <input type="text" name="company" id="company">
+                                            
                                             <label for="job-title">Job title</label>
                                             <input type="text" name="job-title" id="job-title">
-                                            <label for="why">Describe your experience with email</label>
+                                            
+                                            <label for="why" class="label--required">Please describe your experience with email</label>
                                             <textarea rows="3" name="why" id="why"></textarea>
+                                            
                                             <input type="submit" value="Send Application">
                                         </fieldset>
                                     </form>                                    
