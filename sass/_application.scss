@@ -60,6 +60,18 @@ label {
 	text-align: left;
 }
 
+/* Honeypot */
+label[for=name],
+input#name {
+	height: 0px !important;
+	width: 0px !important;
+	opacity: 0;
+	z-index: -1;
+	position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .label--required::after {
 	color: $grey-dark;
 	content: 'Required';
