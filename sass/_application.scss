@@ -74,7 +74,9 @@ input {
 
 input[type="email"],
 input[type="text"],
-textarea {
+textarea,
+input:valid,
+input:invalid {
 	-webkit-appearance: none;
        -moz-appearance: none;
 	        appearance: none;
@@ -97,6 +99,10 @@ textarea {
 		border-bottom: 1px solid $green-bright;
 	}
 }
+
+/* *:invalid {
+	border-bottom: 1px solid $error;
+} */
 
 textarea {
 	line-height: 1.5;
@@ -124,10 +130,6 @@ input[type="submit"] {
 	&:focus {
 		background: $green-bright;
 	} 
-}
-
-input:invalid {
-	border-bottom: 1px solid $error;
 }
 
 .application input[type="submit"] {
