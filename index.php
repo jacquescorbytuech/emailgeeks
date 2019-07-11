@@ -191,8 +191,11 @@
                                 <div class="application__wrapper">
                                     <form action="thanks" method="post">
                                         <fieldset>
-                                            <label for="name" class="label--required">Name</label>
-                                            <input type="text" name="name" id="name" required>
+                                            <label for="moniker" class="label--required">Name</label>
+                                            <input type="text" name="moniker" id="moniker" required>
+
+                                            <label for="name">Name</label>
+                                            <input type="text" name="name" id="name" tabindex="-1" autocomplete="off">
                                             
                                             <label for="email" class="label--required">Email address</label>
                                             <input type="email" name="email" id="email" required>
