@@ -190,18 +190,18 @@
                                 <div class="application__wrapper">
                                     <form action="thanks" method="post">
                                         <fieldset>
-                                            <label for="">Name</label>
-                                            <input type="text" name="name">
-                                            <label for="">Email address</label>
-                                            <input type="email" name="email">
-                                            <label for="">Twitter username</label>
-                                            <input type="text" name="twitter">
-                                            <label for="">Company</label>
-                                            <input type="text" name="company">
-                                            <label for="">Job title</label>
-                                            <input type="text" name="job-title">
-                                            <label for="">Describe your experience with email</label>
-                                            <textarea rows="3" name="why"></textarea>
+                                            <label for="name">Name</label>
+                                            <input type="text" name="name" id="name">
+                                            <label for="email">Email address</label>
+                                            <input type="email" name="email" id="email">
+                                            <label for="twitter">Twitter username</label>
+                                            <input type="text" name="twitter" id="twitter">
+                                            <label for="company">Company</label>
+                                            <input type="text" name="company" id="company">
+                                            <label for="job-title">Job title</label>
+                                            <input type="text" name="job-title" id="job-title">
+                                            <label for="why">Describe your experience with email</label>
+                                            <textarea rows="3" name="why" id="why"></textarea>
                                             <input type="submit" value="Send Application">
                                         </fieldset>
                                     </form>                                    
