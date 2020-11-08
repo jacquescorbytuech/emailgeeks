@@ -92,7 +92,7 @@
                     <div class="container">
                         <div class="row valign-parent">
                             <div class="col-xs-9 col-sm-4 col-md-3 col-md-offset-1 col-sm-push-5 col-md-push-4 xs-center-children valign-child">
-                                <h3>1.1 million slowly disappearing messages of insight and emojis</h3>
+                                <h3>1.8 million slowly disappearing messages of insight and emojis</h3>
                             </div>
                             <div class="col-xs-9 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-1 col-sm-pull-5 col-md-pull-4 xs-center-children">
 
